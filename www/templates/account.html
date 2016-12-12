@@ -1,0 +1,16 @@
+<ion-view title="Account" hide-nav-bar="true" id="page8">
+  <ion-content padding="true" class="manual-ios-statusbar-padding">
+    <div class="item item-thumbnail-left">
+        <img ng-src="{{imgsrc}}">
+        <h2> {{user}}</h2>
+        <p>Account URL: {{htm}}</p>
+        <p>Bio: {{bio}}</p>
+        <p>Total Private Repos: {{priRepos}}</p>
+        <p>Public Repos: {{pubRepos}}</p>
+        <p>Public Gists: {{gists}}</p>
+        <p>Followers: {{followers}}</p>
+        <p>Following: {{following}}</p>
+    </div>
+    <a class="button button-assertive  button-block" ng-click="logOut()">Log Out</a>
+  </ion-content>
+</ion-view>

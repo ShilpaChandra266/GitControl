@@ -1,0 +1,8 @@
+{
+  "name": "GitControl",
+  "gulpStartupTasks": [
+    "sass",
+    "watch"
+  ],
+  "app_id": "a3d200bf"
+}
